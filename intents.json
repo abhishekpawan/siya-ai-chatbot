@@ -1,0 +1,100 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "hii",
+        "Namaste",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee,tea and other food and beverage",
+        "We have coffee,tea and other food and beverage"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take online payments?",
+        "Do you accept paytm",
+        "Can I pay with Gpay?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept cash ,upi and debit cards"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes around 10-90 minutes depending upon your location"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {"tag": "Intro",
+     "patterns":["who are you?","Siya?","tell me about yourself",
+    "can you tell me about yourself"],
+    "responses":["I am Siya_0.1 AI Chatbot built by Prashant :)"]
+    },
+    {"tag": "Hindi",
+    "patterns": ["hindi?", "do you know hindi?", "do you understand hindi?",
+    "can you write hindi?"],
+    "responses":["maaf kijiyega, mai abhi hindi sikh rahi hu!",
+    "nahi, mujhe hindi nahi aati :( , par mai sikh rahi hu"]
+    
+    },
+    { "tag":"job",
+    "patterns":["what do you do currently?","what's your job?"],
+    "responses":["I am currently working for Art Cafe"]
+    }
+  ]
+}

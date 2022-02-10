@@ -25,13 +25,13 @@ class ChatApplication:
         self.window.mainloop()
         
     def _setup_main_window(self):
-        self.window.title("Siya Solutions")
+        self.window.title("Siya")
         self.window.resizable(width=False, height=False)
-        self.window.configure(width=570, height=600, bg=BG_COLOR)
+        self.window.configure(width=770, height=600, bg=BG_COLOR)
         
         # head label
         head_label = Label(self.window, bg=BG_COLOR, fg=TEXT_COLOR,
-                           text="ART CAFE", font=FONT_BOLD, pady=10)
+                           text="Talk to Siya", font=FONT_BOLD, pady=10)
         head_label.place(relwidth=1)
         
         # tiny divider

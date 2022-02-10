@@ -10,7 +10,8 @@
         "How are you",
         "Is anyone there?",
         "Hello",
-        "Good day"
+        "Good day",
+        "knock knock"
       ],
       "responses": [
         "Hey :-)",
@@ -77,13 +78,15 @@
       ],
       "responses": [
         "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
+        "What did the buffalo say when his son left for college? Bison.",
+        "What’s the best thing about Switzerland? I don’t know, but the flag is a big plus"
       ]
     },
     {"tag": "Intro",
      "patterns":["who are you?","Siya?","tell me about yourself",
-    "can you tell me about yourself"],
-    "responses":["I am Siya_0.1 AI Chatbot built by Prashant :)"]
+    "can you tell me about yourself","name"],
+    "responses":["I am Siya_0.1 AI Chatbot built by Prashant :) and I am learning to be as smart as Siri and Alexa :)",
+    "I am Siya_0.1 AI Chatbot built by Prashant :), for more info you can follow this link https://github.com/Prashant812/Siya"]
     },
     {"tag": "Hindi",
     "patterns": ["hindi?", "do you know hindi?", "do you understand hindi?",
@@ -92,9 +95,26 @@
     "nahi, mujhe hindi nahi aati :( , par mai sikh rahi hu"]
     
     },
+    { "tag":"Siri",
+    "patterns":["do you know about siri","siri?" ],
+    "responses":["I have heard about her, she seems intelligent","oh , an apple product, can't say much about her "]
+    },
+    { "tag":"Alexa",
+    "patterns":["do you know about Alexa","Alexa?","who is Alexa" ],
+    "responses":["I have heard about her, she seems intelligent","oh , she is popular. ","just a dumb assistant"]
+    },
+    { "tag":"Games",
+    "patterns":["do you know some games","games","i am bored" ,"bore"],
+    "responses":[" you can try this one ->  https://www.klook.com/en-MY/blog/free-online-group-games-friends/"]
+    },
+    { "tag":"Prashant",
+    "patterns":["who is Prashant?","Prashant?","Tell me something about Prashant","what does Prashant do?"],
+    "responses":["Prashant is a really nice guy, sorry I am little biased :/","I am not supposed to say bad things about him :-!, you can follow this link -> https://prashant812.github.io/ ",
+    "Not going to backbite my boss :-!, help yourself -> https://prashant812.github.io/"]
+    }, 
     { "tag":"job",
-    "patterns":["what do you do currently?","what's your job?"],
-    "responses":["I am currently working for Art Cafe"]
+    "patterns":["what can you do currently?","what's your job?"],
+    "responses":["I can be implemented in any of the website for chat support and as of now I am desigsned to work in Art cafe."]
     }
   ]
 }

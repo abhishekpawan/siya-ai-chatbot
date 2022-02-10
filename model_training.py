@@ -71,6 +71,9 @@ for (pattern_sentence, tag) in xy:
 X_train = np.array(X_train)
 y_train = np.array(y_train)
 
+print(y_train)
+
+
 
 # Hyper-parameters 
 num_epochs = 1000
@@ -97,10 +100,14 @@ class ChatDataset(Dataset):
         return self.n_samples
 
 dataset = ChatDataset()
+
 train_loader = DataLoader(dataset=dataset,
                           batch_size=batch_size,
                           shuffle=True,
                           num_workers=0)
+
+
+
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
@@ -109,6 +116,7 @@ model = NeuralNet(input_size, hidden_size, output_size).to(device)
 # Loss and optimizer
 criterion = nn.CrossEntropyLoss()
 optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
+
 
 # Train the model
 for epoch in range(num_epochs):

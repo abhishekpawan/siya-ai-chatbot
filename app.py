@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-from siya_chat import get_response, bot_name
+from siya_chat import get_response
 
 app = Flask(__name__)
 app.static_folder = 'static'

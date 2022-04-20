@@ -17,4 +17,4 @@ Siya is an AI Chatbot which can be implemented to any e-commerce website or can 
 <p align="center">
   <img width="500" src="https://user-images.githubusercontent.com/93676625/160547181-eec1af83-78d0-4087-b22a-5d3a14c6085a.png" >
 </p>
-<p><strong>Note</strong>:  Siya is in working phase</p>
+<p><strong>Note</strong>:  Siya is in working phase!</p>
